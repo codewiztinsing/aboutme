@@ -28,8 +28,8 @@ blocks:
           - python manage.py migrate
           - python manage.py test
       jobs:
-        - name: 'Job #1'
+        - name: unittest
           commands: []
-        - name: 'Job #2'
+        - name: Deploy checklist
           commands:
             - pip install flake8
