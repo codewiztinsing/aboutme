@@ -33,4 +33,3 @@ blocks:
         - name: 'Job #2'
           commands:
             - pip install flake8
-            - flake8 resume_app/ --max-line-length=127
